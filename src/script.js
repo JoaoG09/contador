@@ -6,5 +6,7 @@ document.getElementById("increment").addEventListener("click", function () {
 
 document.getElementById("decrement").onclick = function () {
     let newValue = parseInt(count.innerText) - 1;
-
+    if (newValue >= 0) { 
+        count.innerText = newValue;
+    }
 };
