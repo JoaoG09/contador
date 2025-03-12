@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #ffffff; 
+}
+
+.container {
+    background-color: #f4f4f4; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    margin: auto;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* BUG 2: Cor errada, a cor do card deveria ser #f4f4f4 */
